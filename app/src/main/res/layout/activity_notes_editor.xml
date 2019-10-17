@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesEditorActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:background="#FDEB9B"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="39dp" />
+</RelativeLayout>
